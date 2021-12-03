@@ -21,11 +21,11 @@ var newLink = baseLink.replace("dQw4w9WgXcQ", id) + newParams;
 
 console.log(newLink);
 
-$("#player-container-inner").remove();
+$("#player-wrap").remove();
 
 var iframe = document.createElement('IFRAME');
 iframe.src = newLink;
 iframe.title = "video";
 iframe.clientWidth;
-$("#player-container-outer").append(iframe);
+$("#player").append(iframe);
 resizeIframe(iframe)
