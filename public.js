@@ -3,7 +3,10 @@
     jqueryLoader.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
     jqueryLoader.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(jqueryLoader);
+    await jqueryLoader.onload
+
 })
+
 
 function resizeIframe(iframe) {
     iframe.width = $(document).height();
