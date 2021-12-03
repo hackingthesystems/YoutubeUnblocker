@@ -1,6 +1,8 @@
 # YoutubeUnblocker
 Unblocks youtube by abusing embed api's!
 
+**THIS PROJECT IS IN ALPHA AND MAY NOT FUNCTION AS ATTENDED.**
+
 # How To Install
 Copy the below code and make a new bookmark (CTRL+D). Then edit the bookmark's URL address to the below code.
 ```js
