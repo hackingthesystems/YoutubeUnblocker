@@ -4,8 +4,8 @@ jqueryLoader.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(jqueryLoader);
 
 function resizeIframe(iframe) {
-    iframe.width  = 875
-    iframe.height = 475
+    iframe.width  = 1920
+    iframe.height = 1080
 };
 
 
@@ -21,11 +21,8 @@ var newLink = baseLink.replace("dQw4w9WgXcQ", id) + newParams;
 
 console.log(newLink);
 
-$("#player-wrap").remove();
-
 var iframe = document.createElement('IFRAME');
 iframe.src = newLink;
 iframe.title = "video";
-iframe.clientWidth;
-$("#player").append(iframe);
 resizeIframe(iframe)
+$('body').appendChild(iframe)
